@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    id, icon, title, enable(boolean)-->
+    <item
+        android:title="Movies"
+        android:id="@+id/menu_movie"
+        android:icon="@drawable/ic_baseline_movie_filter_24"
+        android:enabled="true" />
+
+    <item
+        android:title="TV Shows"
+        android:id="@+id/menu_tv"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        android:enabled="true" />
+</menu>
